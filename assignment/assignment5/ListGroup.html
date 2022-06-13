@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Group</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+            margin-top: 80px;
+
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================================================== */
+        .div1{
+            width: 50%;
+            height: 800px;
+            float: left;
+        }
+
+        .div1 .title{
+            font-size: 44px;
+            margin: 20px 5px;
+        }
+
+
+
+       
+        /* ===================================================== */
+
+        .div2{
+            max-width: 50%;
+            height: 800px;
+            float: none;
+        }
+
+        .div2 .title{
+            font-size: 44px;
+            margin: 20px 5px;
+        }
+
+/* ============================================================ */
+        .listtotab{
+            list-style-type: none;
+            border: 1px solid gray;
+            border-radius: 8px;
+            margin-left: 5%;
+
+        }
+        .div1 ul{
+            width: 70%;
+
+        }
+        .div1 .listtotab li{
+            font-size: 22px;
+            padding: 10px;
+            color: black;
+            height: 35px;
+            border: 1px solid black;
+            align-items: baseline;
+
+            }
+        .div1 .listtotab .active{
+            color: white;
+            background-color: blueviolet;
+            border: 1px solid blueviolet;
+        }
+
+
+
+/* ==================================================== */
+        .div2 .listtotab li{
+            font-size: 22px;
+            padding: 10px;
+            color: black;
+            height: 180px;
+            background-color: white;
+            border: 1px solid black;
+            align-items: baseline;
+
+            }
+
+            .div2 .listtotab li:hover{
+            background-color: blueviolet;
+            color: white;
+
+            }
+        .div2 .listtotab .active{
+            color: white;
+            background-color: blueviolet;
+            border: 1px solid blueviolet;
+        }
+
+
+        .div2 .list-group-item .div21{
+            width: 100%;
+            height: 20%;
+
+        }
+
+        .div2 .list-group-item .div21 h4{
+            width: 65%;
+            float: left;
+
+        }
+        .div2 .list-group-item .div21 p{
+            width: 35%;
+            float: right;
+
+        }
+        .div2 .list-group-item .div22{
+            width: 100%;
+            height: 60%;
+
+        }
+        .div2 .list-group-item .div23{
+            width: 100%;
+            height: 20%;
+            color: rgb(204, 204, 204);
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- nevbar -->
+<div class="nevbar">
+    <div class="leftdiv">
+        <div class="mydiv1">
+            <h3>UI Kit</h3>
+        </div>
+        <div class="mydiv2">
+            <ul>
+                <li><a href="./Color.html">Color</a></li>
+                <li><a href="./Typography.html">Typography</a></li>
+                <li><a href="./Button.html">Button</a></li>
+                <li><a href="./Forms.html">Forms</a></li>
+                <li><a href="./ListGroup.html">List Group</a></li>
+                <li><a href="./Table.html">Table</a></li>
+                <li><a href="./Card.html">Card</a></li>
+            </ul>
+        </div>
+
+    </div>
+    
+
+    <div class="rightdiv">
+        <div>
+            <input type="text" name="search_text" id="search_input" placeholder="Search">
+        </div>
+        <div>
+            <button type="button" id="search_btn">Search</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- nevbar -->
+
+
+
+    <h1 class="title">List Group</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+       
+
+
+        <div class="div2">
+            <div>
+                <h2 class="title">Custom content</h2>
+            </div>
+            <div>
+                <ul class="list-group listtotab">
+                    <li class="list-group-item active">
+                        <div class="div21">
+                            <h4 class="list-group-item-heading">List group item heading</h4>
+                            <p class="list-group-item-text">3 days ago</p>
+                        </div>
+                        <div class="div22">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laborum!</p>
+                        </div>
+                        <div class="div23">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="div21">
+                            <h4 class="list-group-item-heading">List group item heading</h4>
+                            <p class="list-group-item-text">3 days ago</p>
+                        </div>
+                        <div class="div22">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laborum!</p>
+                        </div>
+                        <div class="div23">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="div21">
+                            <h4 class="list-group-item-heading">List group item heading</h4>
+                            <p class="list-group-item-text">3 days ago</p>
+                        </div>
+                        <div class="div22">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laborum!</p>
+                        </div>
+                        <div class="div23">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

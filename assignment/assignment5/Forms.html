@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+            margin-top: 80px;
+
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================================================== */
+        .div1{
+            width: 35%;
+            height: 800px;
+            float: left;
+        }
+
+        .div1 .div11 h3{
+            font-size: 35px;
+        }
+
+        .div1 .div12 ul{
+            margin-top: 30px;
+
+        }
+
+        .div1 .div12 li{
+            text-decoration: none;
+            padding: 10px;
+            font-size: 22px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            list-style-type: none;
+            height: 40px;
+
+        }
+        .div1 .div12 p{
+            margin: 10px;
+
+        }
+        .div1 .div12 li:hover{
+            background-color: blueviolet;
+            color: white;
+
+        }
+        .div1 .div12 .forms{
+            background-color: blueviolet;
+
+
+        }
+       
+        /* ===================================================== */
+
+        .div2{
+            width: 62%;
+            height: 1800px;
+            float:right;
+            
+        }
+        /* ====================================================== */
+        .div21{
+            height: 120px;
+            padding: 5px;  
+
+        }
+        .div21 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+        .div21 input[type="text"]{
+            padding: 10px;
+            font-size: 15px;
+            width: 60%;
+            margin-top: 5px;
+            border-radius: 5px;
+            margin-left: 15px;
+        }
+        .div22{
+            height: 120px;
+        }
+        .div22 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+        .div22 #selectmenu{
+            padding: 12px;
+            font-size: 15px;
+            width: 63%;
+            margin-top: 5px;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+
+
+        .div23{
+            height: 220px;
+        }
+        .div23 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+        .div23 input[type="textarea"]{
+            padding: 10px;
+            font-size: 15px;
+            width: 60%;
+            height: 50%;
+            margin-top: 5px;
+            border-radius: 5px;
+            margin-left: 15px;
+
+        }
+            
+
+
+
+
+
+        /* ================================================= */
+        .div24{
+            height: 260px;
+
+        }
+
+        .div24 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+
+        .div24 .div24left{
+            width: 30%;
+            height: 100%;
+            float: left;
+
+        }
+        .div24 .div24left .title{
+            font-size: 22px;
+            margin: 10px;
+        }
+        .div24 .div24left input[type="checkbox"]{
+            accent-color: blueviolet;
+            height: 20px;
+            width: 20px;
+
+        }
+        .div24 .div24left label{
+            font-size: 22px;
+
+        }
+        .div24 .div24left .wrapper{
+            padding: 5px;
+
+        }
+
+
+
+
+
+
+        .div24 .div24right{
+            width: 70%;
+            height: 100%;
+            float: right;
+        }
+        .div24 .div24right .title{
+            font-size: 22px;
+            margin: 10px;
+        }
+
+        .div24 .div24right input[type="checkbox"]{
+            margin-left: 10px;
+            accent-color: blueviolet;
+            height: 20px;
+            width: 20px;
+
+        }
+        .div24 .div24right label{
+            font-size: 22px;
+        }
+
+
+/* ==================================================================== */
+        .div26{
+                    height: 260px;
+
+                }
+
+        .div26 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+
+        .div26 .div24left{
+            width: 30%;
+            height: 100%;
+            float: left;
+
+        }
+        .div26 .div24left .title{
+            font-size: 22px;
+            margin: 10px;
+        }
+        .div26 .div24left input[type="radio"]{
+            accent-color: blueviolet;
+
+            height: 20px;
+            width: 20px;
+
+        }
+        .div26 .div24left label{
+            font-size: 22px;
+
+        }
+        .div26 .div24left .wrapper{
+            padding: 5px;
+
+        }
+
+
+
+
+
+
+        .div26 .div24right{
+            width: 70%;
+            height: 100%;
+            float: right;
+        }
+        .div26 .div24right .title{
+            font-size: 22px;
+            margin: 10px;
+        }
+
+        .div26 .div24right input[type="radio"]{
+            margin-left: 10px;
+            accent-color: blueviolet;
+            height: 20px;
+            width: 20px;
+
+        }
+        .div26 .div24right label{
+            font-size: 22px;
+        }
+
+
+/* ======================================================================= */
+
+
+
+        .div25{
+            height: 320px;
+        }
+        .div25 h4{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- nevbar -->
+<div class="nevbar">
+    <div class="leftdiv">
+        <div class="mydiv1">
+            <h3>UI Kit</h3>
+        </div>
+        <div class="mydiv2">
+            <ul>
+                <li><a href="./Color.html">Color</a></li>
+                <li><a href="./Typography.html">Typography</a></li>
+                <li><a href="./Button.html">Button</a></li>
+                <li><a href="./Forms.html">Forms</a></li>
+                <li><a href="./ListGroup.html">List Group</a></li>
+                <li><a href="./Table.html">Table</a></li>
+                <li><a href="./Card.html">Card</a></li>
+            </ul>
+        </div>
+
+    </div>
+    
+
+    <div class="rightdiv">
+        <div>
+            <input type="text" name="search_text" id="search_input" placeholder="Search">
+        </div>
+        <div>
+            <button type="button" id="search_btn">Search</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- nevbar -->
+
+
+
+    <h1 class="title">Forms</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+
+
+        <div class="div1">
+            <div class="div11">
+                <h3>Components</h3>
+            </div>
+            <div class="div12">
+                <ul>
+                    <li><p>Color</p></li>
+                    <li><p>Typography</p></li>
+                    <li><p>Buttons</p></li>
+                    <li class="forms"><p>Forms</p></li>
+                    <li><p>List Group</p></li>
+                    <li><p>Table</p></li>
+                    <li><p>Card</p></li>
+                </ul>
+            </div>
+          
+
+        </div>
+
+
+
+
+
+        <div class="div2">
+
+
+
+            <div class="div21">
+                <h4>Input</h4>
+                <input type="text" name="inputtext" id="inputtext" placeholder="Placeholder">
+            </div>
+
+
+
+
+            <div class="div22">
+                <h4>
+                    Select menu
+                </h4>
+                <select name="selectmenu" id="selectmenu">
+                    <option value="Select Menu">Select Menu</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+
+
+            <div class="div23">
+                <h4>
+                    Textarea
+                </h4>
+                <input type="textarea" name="textarea" id="textarea" placeholder="Write your message here">
+            </div>
+
+
+
+
+
+           <div class="div24">
+               <div class="div24left">
+                    <p class="title">Checkboxes</p>
+                    <div style="align-items: left;">
+                        <div class="wrapper">
+                            <input type="checkbox" value="Default Radio" name="Default Radio" id="dcheckbox">
+                            <label for="dcheckbox">Default Radio</label>
+                        </div>
+                
+                        <div class="wrapper">
+                            <input type="checkbox" value="Selected Radio" name="Selected Radio" id="scheckbox" checked>
+                            <label for="scheckbox">Selected Radio</label>                          
+                        </div>
+                        <div class="wrapper">
+                            <input type="checkbox" value="Disabled radio" name="Disabled radio" id="dcheckbox" disabled>
+                            <label for="dcheckbox">Disabled radio</label> 
+                        </div>
+                    </div>
+                </div>  
+                <div class="div24right">
+                    <p class="title">Checkboxes inline</p>
+                    <div style="margin-left: 20px;">
+                        <input type="checkbox" value="Default Radio1" name="Default Radio1" id="dcheckbox1">
+                        <label for="dcheckbox1">Default Radio</label>
+
+                        <input type="checkbox" value="Selected Radio1" name="Selected Radio1" id="scheckbox1" checked>
+                        <label for="scheckbox1">Selected Radio</label>
+
+                        <input type="checkbox" value="Disabled radio1" name="Disabled radio1" id="dcheckbox1" disabled>
+                        <label for="dcheckbox1">Disabled radio</label>
+        
+                    </div>
+                    
+                </div>
+           </div>
+
+
+
+
+           <div class="div26">
+            <div class="div24left">
+                 <p class="title">Radio</p>
+                 <div style="align-items: left;">
+                     <div class="wrapper">
+                         <input type="radio" value="Default Radio" name="Default Radio" id="dcheckbox">
+                         <label for="dcheckbox">Default Radio</label>
+                     </div>
+             
+                     <div class="wrapper">
+                         <input type="radio" value="Selected Radio" name="Selected Radio" id="scheckbox" checked>
+                         <label for="scheckbox">Selected Radio</label>                          
+                     </div>
+                     <div class="wrapper">
+                         <input type="radio" value="Disabled radio" name="Disabled radio" id="dcheckbox" disabled>
+                         <label for="dcheckbox">Disabled radio</label> 
+                     </div>
+                 </div>
+             </div>  
+             <div class="div24right">
+                 <p class="title">Radio inline</p>
+                 <div style="margin-left: 20px;">
+                     <input type="radio" value="Default Radio1" name="Default Radio1" id="dcheckbox1">
+                     <label for="dcheckbox1">Default Radio</label>
+
+                     <input type="radio" value="Selected Radio1" name="Selected Radio1" id="scheckbox1" checked>
+                     <label for="scheckbox1">Selected Radio</label>
+
+                     <input type="radio" value="Disabled radio1" name="Disabled radio1" id="dcheckbox1" disabled>
+                     <label for="dcheckbox1">Disabled radio</label>
+     
+                 </div>
+                 
+             </div>
+        </div>
+
+
+
+           <div class="div25">
+               <h3 style="padding: 20px 1px; font-size: 32px;">Validation</h3>
+               <div>
+                <div class="div25_upper" style="margin: 5px;">
+                    <label for="successtext" style="display: block; font-size: 22px; padding: 5px;">Input Success</label>
+                    <input type="text" name="successtext" style="width:60%; padding: 10px; border:2px solid green; border-radius: 5px;">
+                </div>
+                <div class="div25_lower" style="margin: 5px;">
+                    <label for="errortext" style="display: block; font-size: 22px; padding: 5px;">Input Error</label>
+                    <input type="text" name="errortext" style="width:60%; padding: 10px; border:2px solid red; border-radius: 5px;">
+                </div>
+               </div>
+           </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

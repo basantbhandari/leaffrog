@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttom</title>
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================================================== */
+        .div1{
+            width: 100%;
+            height: 600px;
+        }
+        table {
+           width: 60%;
+           height: 200px;
+        }
+
+        table th,table td{
+           font-size: 24px;
+           font-weight: 100;
+           margin: 20px;
+           height: 100px;
+           width: 150px;
+           
+        }
+        table th{
+            text-align: center;
+
+        }
+
+        table td p{
+            text-align: center;
+            padding: 20px 0;
+
+        }
+        table td .primarybtn{
+            background-color: blueviolet;
+            height: 70px;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+        table td  .outlineemptybtn{
+            background-color: rgb(255, 255, 255);
+            height: 70px;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+        table td .outlinefilledbtn{
+            background-color: blueviolet;
+            height: 70px;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+
+
+       
+        /* ===================================================== */
+
+        .div2{
+            width: 100%;
+            height: 600px;
+        }
+        table td .secbtn{
+            background-color: black;
+            height: 70px;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+        table td  .outlineemptybtn{
+            background-color: rgb(255, 255, 255);
+            height: 70px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+        table td .secbtn .outlinefilledbtn{
+            background-color: black;
+            height: 70px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 0px 30px 0px 30px;
+            
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Buttons</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+
+
+        <div class="div1">
+           <div>
+               <h2>Primary</h2>
+           </div>
+           <hr>
+           <div>
+            <table>
+                <tr>
+                  <th></th>
+                  <th>default</th>
+                  <th>Outline</th>
+                </tr>
+                <tr>
+                  <td>default</td>
+                  <td><div class="btn primarybtn"><p style="color: white;">Primary</p></div></td>
+                  <td><div class="btn outlineemptybtn primarybtn"><p style="color: blueviolet;">Outline</p></div></td>
+                </tr>
+                <tr>
+                    <td>hover</td>
+                    <td><div class="btn primarybtn"><p style="color: white;">Primary</p></div></td>
+                    <td><div class="btn outlinefilledbtn primarybtn"><p style="color: white;">Outline</p></div></td>  
+                </tr>
+                <tr>
+                    <td>focus</td>
+                    <td><div class="btn primarybtn"><p style="color: white;">Primary</p></div></td>
+                    <td></td>
+                </tr>
+              </table>
+              
+           </div>
+
+        </div>
+
+
+
+
+
+        <div class="div2">
+            <div>
+                <h2>Secondary button</h2>
+            </div>
+            <hr>
+            <div>
+             <table>
+                 <tr>
+                   <th></th>
+                   <th>default</th>
+                   <th>Outline</th>
+                 </tr>
+                 <tr>
+                   <td>default</td>
+                   <td><div class="btn secbtn"><p style="color: white;">Primary</p></div></td>
+                   <td><div class="btn outlineemptybtn secbtn" ><p style="color: black;">Outline</p></div></td>
+                 </tr>
+                 <tr> 
+                     <td>hover</td>
+                     <td><div class="btn secbtn"><p style="color: white;">Primary</p></div></td>
+                     <td><div class="btn outlinefilledbtn secbtn"><p style="color: white;">Outline</p></div></td>  
+                 </tr>
+                 <tr>
+                     <td>focus</td>
+                     <td><div class="btn secbtn"><p style="color: white;">Primary</p></div></td>
+                     <td></td>
+                 </tr>
+               </table>
+               
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

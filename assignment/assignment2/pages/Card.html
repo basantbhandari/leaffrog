@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 40px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+        .lofidiv{
+            height: 820px;
+            width: 350px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        .middlelofidiv{
+            height: 600px;
+            width: 350px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+
+
+        /* ===================================================== */
+        
+        .innerdiv{
+            float: left;
+            width: 63%;
+        }
+        .innerdiv .div1{
+            float: left;
+            width: 46%;
+        }
+      
+        .innerdiv .div2{
+            float: right;
+            width: 46%;
+        }
+        /* ======================================================= */
+
+        .div3{
+            float: right;
+            width: 30%;
+        }
+        /* ======================================================= */
+
+
+        .div112:after {
+            content: '\2807';
+            font-size: 40px;
+            float: right;
+            margin: 10px;
+            padding: 8px;
+            width: 10%;
+            
+        }
+        .div111{
+            float: left;
+            width: 80%;
+        }
+
+
+        .div111 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin: 10px;
+            float: left;
+
+        }
+        .div111 .div1111{
+            float: right;
+            width: 75%;
+            margin-top: 10px;
+        }
+        .div111 .div1111 h3{
+            font-size: 25px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        .div111 .div1111 p{
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        .di12{
+            height: 60%;
+        }
+
+        .div12 img{
+            height: 520px;
+            width: 584px;
+        }
+        .div13{
+            height: 90px;
+            width: 584px;
+
+        }
+        .div13 .div13_left{
+            float: left;
+            width: 70%;
+            height: 100%;
+        }
+
+        .div13_left .div131{
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        .div13_left .div131 img{
+            width: 50%;
+            height: 100%;
+            margin-left: 50px;
+
+        }
+        .div13_left .div132{
+            float: right;
+            width: 50%;
+            height: 100%;
+        }
+        .div13_left .div132 img{
+            width: 50%;
+            height: 100%;
+            margin-left: 50px;
+
+        }
+
+        .div13 .div13_right{
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+        .div13 .div13_right img{
+            width: 50%;
+            height: 100%;
+            margin-left: 50px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .div14{
+            height: 105px;
+            width: 584px;
+        }
+        .div14 .div141{
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+
+        .div14 .div141 img{
+            width: 100px;
+            height: 100px;
+            margin-left: 50px;
+        }
+
+
+
+        .div14 .div142 {
+            float: right;
+            width: 70%;
+            height: 100%;
+        }
+        .div14 .div142 input[type="text"]{
+            width: 80%;
+            height: 45px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 20px;
+        }
+/* ============================================================= */
+
+        .div21 img{
+            width: 100%;
+            height: 100%;
+        }
+        .div22{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            margin-top: 60px;
+            font-size: 32px;
+        }
+        .div2 > img{
+            position: abosolute;
+            height: 100px;
+            width: 100px;
+            margin-left: 240px;
+            margin-top: -55px;
+        }
+/* ================================================================= */
+
+        .div31 {
+            height: 25%;
+            width: 100%;
+
+        }
+
+        .div32 {
+            height: 60%;
+            width: 100%;
+
+        }
+
+        .div33 {
+            height: 15%;
+            width: 100%;
+
+        }
+
+        .btndivhome{
+            height: 35px;
+            width: 80px;
+            background-color: rgb(0, 132, 255);
+            border: 1px solid black;
+            border-radius: 8px;
+            margin-left: 10px;
+            padding: 10px;
+            font-size: 22px;
+            
+        }
+        .btndivhome p{
+            color: white;
+        }
+
+        .div31 h5, p{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .div32 img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .div33left{
+            float: left;
+            width: 80%;
+            height: 100%;
+        }
+        .div33left1{
+            float: left;
+            width: 70%;
+            height: 100%;
+        }
+        .div33left1 img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+        .div33left1 h5{
+            font-size: 30px;
+            padding: 12px;
+            margin: 25px 10px;
+            float: right;
+        }
+        .div33left2{
+            float: right;
+            width: 30%;
+            height: 100%;
+        }
+        .div33left2 img{
+            width: 80px;
+            height: 80px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .div33left2 h5{
+            font-size: 24px;
+            margin-top: 35px;
+            margin-left: 5px;
+        }
+        .div33right{
+            float: right;
+            width: 20%;
+            height: 100%;
+        }
+
+        .div33right img{
+            width: 80px;
+            height: 80px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .div33right h5{
+            font-size: 24px;
+            margin-top: 35px;
+            margin-left: 1px;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Card</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+
+        <div class="innerdiv">
+            <div class="lofidiv div1">
+                <div class="div11">
+                    <div class="div111">
+                        <img src="../assets/images/person.jpg" alt="" srcset="">
+                        <div class="div1111">
+                            <h3>Sture Manson</h3>
+                            <p>Publicado hace 2</p>
+                            <p>Horas</p>
+                        </div>
+                    </div>
+                    <div class="div112">
+
+                    </div>
+                </div>
+
+
+
+                <div class="div12">
+                    <img src="../assets/images/cyclist.jpg" alt="" srcset="">
+                </div>
+
+
+
+
+                <div class="div13">
+                    <div class="div13_left">
+                        <div class="div131">
+                            <img src="../assets/images/like.png" alt="" srcset="">
+                        </div>
+                        <div class="div132">
+                            <img src="../assets/images/messages.png" alt="">
+                        </div>
+                    </div>
+                    <div class="div13_right">
+                            <img src="../assets/images/arrow.png" alt="" srcset="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="div14">
+                    <div class="div141">
+                        <img src="../assets/images/girl sitting.jpg" alt="" srcset="">
+                    </div>
+                    <div class="div142">
+                        <input type="text" name="search" placeholder="Enter your comment" id="">
+                    </div>
+
+                </div>
+            </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+            <div class="middlelofidiv div2">
+                <div class="div21">
+                    <img src="../assets/images/girl sitting.jpg" alt="" srcset="">
+                </div>
+
+                <img src="../assets/images/startbtn.png" alt="">
+                <div class="div22">
+                    <h4>Meditaciones en casa</h4>
+                    <h4>Susan Paz</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="lofidiv div3">
+            <div class="div31">
+                    <div class="btndivhome">
+                            <p>Home</p>
+                    </div>
+                    <h5>Lampara Look</h5>
+                    <p>by Seca Tuerca</p>
+            </div>
+            <div class="div32">
+                <img src="../assets/images/bride.jpg" alt="" srcset="">
+
+            </div>
+            <div class="div33">
+                <div class="div33left">
+                    <div class="div33left1">
+                        <img src="../assets/images/man.jpg" alt="" srcset="">
+                        <h5>Fellpe sacudon</h5>
+                    </div>
+                    <div class="div33left2">
+                        <img src="../assets/images/messages.png" alt="" srcset="">
+                        <h5>22</h5>
+
+                    </div>
+
+                </div>
+                <div class="div33right">
+                    <img src="../assets/images/heart.png" alt="" srcset="">
+                    <h5>20</h5>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

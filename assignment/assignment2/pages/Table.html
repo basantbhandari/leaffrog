@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================================================== */
+        .div1{
+            width: 100%;
+            height: auto;
+            /* background-color: aquamarine; */
+        }
+        .div1 table{
+            width: 100%;
+            border-collapse:collapse;
+
+        }
+        .div1 table th{
+            padding: 10px;
+            font-size: 24px;
+            text-align: left;
+        }
+        .div1 table tr td{
+            padding: 10px;
+            font-size: 22px;
+            border: 1px solid rgb(216, 210, 210);
+            border-left: none;
+            border-right: none;
+        }
+        .div1 table tr{
+            background-color: white
+        }
+        .div1 table tr:nth-child(even){
+            background-color: rgb(248, 253, 253)
+        }
+     
+
+
+       
+        /* ===================================================== */
+
+        .div2{
+            width: 100%;
+            height: 65px;
+            margin-top: 20px;
+        }
+
+        .div2 .leftdiv{
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+        .div2 .rightdiv{
+            width: 30%;
+            height: 100%;
+            float: right;
+        }
+        .div2 .rightdiv .outerbtn{
+            height: 75%;
+            width: 70px;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 6px;
+            border: 1px solid rgb(216, 210, 210);
+        }
+        .div2 .rightdiv .innerbtn{
+            height: 75%;
+            width: 36px;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 8px;
+            border: 1px solid rgb(216, 210, 210);        }
+        .div2 .rightdiv .active{
+            background-color: blueviolet
+        }
+      
+        .div2 .rightdiv p{
+            font-size: 26px;
+            color: white;
+            text-align: center;
+            margin-top: 7px;
+        }
+        .div2 .rightdiv .activetext{
+            color: blue;
+        }
+        .div2 .rightdiv .deactivetext{
+            color: rgb(201, 201, 201);
+        }
+      
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Tables</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+        <div class="div1" style="margin-top: 30px;">
+            <table >
+                <tr>
+                  <th># </th>
+                  <th>First</th>
+                  <th>Last</th>
+                  <th>Handle</th>
+                </tr>
+                <tr>
+                  <td style="font-weight: bold;">1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: bold;">2</td>
+                  <td>jacob</td>
+                  <td>Thorton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+                
+              </table>
+              
+              
+        </div>
+
+        <div class="div2" style="width: 100%;">
+          <div class="leftdiv">
+
+          </div>
+          <div class="rightdiv">
+              <div class="outerbtn">
+                    <p class="deactivetext">Prev</p>
+              </div>
+              <div class="innerbtn active">
+                        <p>1</p>
+            </div>
+            <div class="innerbtn">
+                      <p class="activetext">2</p>  
+            </div>
+            <div class="innerbtn">
+                       <p class="activetext">3</p>
+
+            </div>
+              <div class="outerbtn">
+                  <p class="activetext">Next</p>
+              </div>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

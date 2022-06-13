@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <style>
+        /* resetting */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ====================================================== */
+        .title{
+            font-size: 65px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 10px;
+        }
+        .horizontal_bar{
+            height: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .outerdiv{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        .outerdiv h2{
+            padding: 12px;
+            font-size: 35px;
+        }
+        /* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================================================== */
+        .div1{
+            width: 100%;
+            height: 300px;
+        }
+
+        .div1 .div11{
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        .div1 .div11 p{
+            padding: 15px;
+        }
+        .div1 .div12{
+            width: 50%;
+            height: 100%;
+            float: right;
+        }
+        .div1 .div12 p{
+            padding: 1px;
+            margin-top: 2px;
+            margin-left: 10px;
+        }
+        .div1 .div12 .paralinethrough1{
+            text-decoration: line-through;
+        }
+        .div1 .div12 .paralinethrough2{
+            text-decoration: line-through;
+        }
+        .div1 .div12 .paraunderline1{
+            text-decoration: underline;
+        }
+
+        .div1 .div12 .smallertext{
+            font-size: 15px;
+        }
+        .div1 .div12 .paraunderline2{
+            text-decoration: underline;
+        }
+        .div1 .div12 .boldunderline1{
+            text-decoration: underline;
+        }
+
+        /* ===================================================== */
+
+        .div2{
+            width: 100%;
+            height: 300px;
+        }
+
+        .div2 p{
+            padding: 15px;
+        }
+
+        /* ===================================================== */
+
+        .div3{
+            width: 100%;
+            height: 300px;
+        }
+
+        /* ===================================================== */
+        .div3 .upper{
+            margin-bottom: 40px;
+        }
+        .div3 .lower{
+            margin-left: 300px;
+            width: 40%;
+            color: gray;
+        }
+        .div3 .first_div .tabbox{
+            width:100px;
+            height: 48px;
+            float: left;
+            border: 1px solid gray;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        #homediv{
+            border-bottom: none;
+        }
+        #homediv h4{
+            color: black;
+        }
+
+
+        .div3 .first_div{
+            display: block;
+            width: 100%;
+            height: 50px;
+            margin-left:5px;
+
+        }
+        .div3 .first_div h4{
+            color: blue;
+            margin: 15px 0px 0px 25px;
+
+        }
+        .div3 .second_div p{
+            height: 400px;
+            width: 60%;
+            padding: 10px
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Typography</h1>
+    <hr class="horizontal_bar">
+    <div class="outerdiv">
+
+
+        <div class="div1">
+            <div class="div11">
+                <h2>Body Text</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti vitae aut quasi nulla maxime molestiae omnis dolorum fugit eos! Natus, quae nulla quia a, pariatur porro sit perspiciatis, dolor totam quisquam incidunt aspernatur tempora recusandae. Obcaecati consequatur illo voluptate quas.</p>
+
+            </div>
+            <div class="div12">
+                <h2>Inline text elements</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- linethough paragraph -->
+                <p class="paralinethrough1">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <!-- linethough paragraph -->
+                <p class="paralinethrough2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                <!-- underline paragraph -->
+                <p class="paraunderline1">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <!-- underline paragraph -->
+                <p class="paraunderline2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia.</p>
+                <p class="smallertext">Lorem ipsum dolor sit amet consectetur.</p>
+                <!-- underline paragraph -->
+                <p><b class="boldunderline1">Lorem ipsum dolor sit amet consectetur.</b></p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                
+ 
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="div2">
+            <h2>Lead Text</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum excepturi quis, ad velit iste sapiente ratione odio cupiditate quia deleniti mollitia tenetur et quae neque, molestiae aspernatur. Quo quae odio, dicta distinctio ipsam animi cum esse impedit molestiae pariatur reprehenderit vel facere magni totam ducimus nisi eum deserunt iste, possimus, praesentium fugit quis molestias soluta id. Atque beatae, quis eveniet placeat perspiciatis ullam corrupti ut dolorum culpa consectetur nobis, dolor blanditiis maiores distinctio quidem consequatur expedita. Dolorem sit porro voluptatum, illo architecto magni nisi voluptatibus atque dolorum amet accusamus aut repellendus dicta aspernatur commodi doloribus earum iste minima hic neque!</p>
+  
+        </div>
+
+
+
+
+        <div class="div3"> 
+            <h2>Tabs</h2>
+            <hr class="upper">
+            <div class="tab_container">
+                <div class="first_div">
+                    <div id="homediv" class="homediv tabbox">
+                        <h4>Home</h4>
+                    </div>
+                    <div class="profilediv tabbox">
+                        <h4>Profile</h4>
+                    </div>
+                    <div class="contentdiv tabbox">
+                        <h4>content</h4>
+                    </div>
+
+                </div>
+                <hr class="lower">
+                <div class="second_div">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo odit facilis, adipisci eligendi nam quam. Corporis nisi dicta eaque voluptate iste, adipisci rem ex illo? Quae, fugit! Aspernatur soluta amet expedita laboriosam porro officia, molestiae ducimus dolorum a cupiditate asperiores consequuntur doloribus suscipit maxime distinctio deleniti velit ut molestias nobis inventore alias quidem impedit! Sint ratione a aliquam illo perspiciatis! Deleniti expedita commodi aliquid voluptatum, neque quas soluta veritatis iusto alias aliquam illum sapiente, voluptatibus eligendi nemo itaque consectetur, ea repellat nihil reiciendis. Ullam, nemo. Quas, repellendus eveniet, numquam adipisci eos recusandae laborum tempore maiores eius nostrum sint fugiat. Ratione repudiandae culpa voluptatibus placeat pariatur perspiciatis doloribus rem dignissimos modi? Vel, maxime recusandae architecto praesentium a nulla repellat dignissimos.</p>
+                </div>
+
+            </div>            
+        </div>
+    
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+

@@ -1,0 +1,120 @@
+/* =========================================================== */
+/* nev bar css */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nevbar{
+    width: 100%;
+    background-color: #dad3d3;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+    padding: 10px;
+}
+
+
+.nevbar > .leftdiv{
+    float:left;
+    width:50%;
+    margin-left: 8%;
+}
+
+.nevbar > .rightdiv{
+    float:right;
+    width:20%;
+    margin-right: 15%;
+}
+
+
+
+
+
+
+
+.nevbar > .leftdiv > .mydiv1{
+    font-size: 1.1rem;
+    max-width: 15%;
+    float: left;
+    margin-top: 2%;
+    background-color: #dad3d3;
+}
+
+
+.nevbar > .leftdiv > .mydiv1 h3{
+    font-size: 1.3rem;
+   }
+
+
+.nevbar > .leftdiv > .mydiv2{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    max-width: 85%;
+    float: right;
+}
+    
+
+
+
+
+
+
+.nevbar > .leftdiv > .mydiv2 ul {
+    list-style-type: none;
+}
+
+.nevbar > .leftdiv > .mydiv2 li{
+    float: left;
+}
+
+.nevbar > .leftdiv > .mydiv2 li a {
+    padding: 8px;
+
+}
+
+
+
+
+
+
+
+
+.rightdiv input[type=text]{
+    padding: 2%;
+    font-size: 17px;
+    border: 1px solid green;
+    float: left;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 2%;
+
+}
+
+
+
+.rightdiv button{
+  float: left;
+  max-width: fit-content;
+  padding: 2%;
+  background: #ffffff;
+  color: rgb(43, 255, 0);
+  font-size: 17px;
+  border: 1px solid rgb(43, 255, 0);
+  border-radius: 5px;
+  margin: 7px;
+}
+
+/* =========================================================== */
+
+
+

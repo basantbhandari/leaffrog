@@ -1,0 +1,684 @@
+/* tablet devices */
+
+@media screen and (max-width: 1200px  ) and (min-width: 576px) {
+   
+
+
+
+       /* navbar start here */
+    .navbar{
+        padding: 5px;
+        height: 80px;
+        overflow: hidden;
+        position: relative;
+        border: 0.7px solid #FFFFFF4A;
+    }
+    
+    .navbar .leftdiv{
+        float: none;
+        max-width: 100%;
+    }
+    
+    .navbar .leftdiv img{
+        max-width: 100%;
+
+    }
+    
+    
+
+    /* making hamburger */
+    .myMenuIcon{
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+
+    
+    .navbar .rightdiv ul{
+        text-align: center;
+        position: fixed;
+        display: none;
+        width: 500px;
+        z-index: 3;
+        background-color: white;
+    }
+    .navbar .rightdiv ul li a{
+        display: block;   
+    }
+
+    .navbar .rightdiv ul.mystyle {
+        display: block;
+    }
+
+
+    /* menu  */
+    .navbar .rightdiv{
+        float: none;
+        max-width: 100%;
+        display: block;
+        padding-right: 60%;
+
+    }    
+ 
+    
+    .navbar .rightdiv li{
+        display: block;
+        max-width: 100%;
+        font-size: 26px;
+    }
+
+
+    .btn{
+        background-color: rgb(12, 124, 223);
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        max-width: fit-content;
+        border-radius: 5px;
+        margin-left: 37%;
+        margin-top: 30%;
+    }
+    .active{
+        color: blue;
+    }
+    
+    
+    /* nav bar end */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* hero porsion start */
+    .bodycontainer{
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .bodycontainer .leftbody{
+        float: none;
+        max-width: 100%;
+        display: block;
+    
+    }
+    
+    .bodycontainer .rightbody {
+        float: none;
+        max-width:100%;
+        display: block;
+    }
+    
+    .bodycontainer .rightbody img{
+        height: auto;
+        max-width: 100%;
+    }
+    .bodycontainer .leftbody .title h2{
+        height: auto;
+        max-width: 100%;
+        font-size: 1.3rem;
+    }
+
+
+    .bodycontainer .leftbody .title p{
+        height: auto;
+        max-width: 100%;
+        font-size: 20px;
+    
+    }
+    .bodycontainer .leftbody .btndiv{
+        height: auto;
+        padding: 5px;
+        border-radius: nullpx;
+        margin-top: 1.1rem;
+    
+    }
+
+    .bodycontainer .leftbody .leftbtn{
+        height: auto;
+        max-width: 100%;
+        border-radius: 4px;
+        background: #4E42D9;
+        float: left;
+    }
+    .bodycontainer .leftbody .leftbtn h4{
+        height: auto;
+        max-width:100%;
+    
+    }
+    
+    
+    
+    .bodycontainer .leftbody .rightbtn{
+        height: auto;
+        max-width: 100%;
+        border-radius: 4px;
+        background: #4E42D92E;
+        float: right;
+        
+    
+        
+    }
+    .bodycontainer .leftbody .rightbtn h4{
+        height: auto;
+        max-width: 100%;      
+    }
+    
+    
+    /* below hero part */
+    
+    
+
+
+
+
+
+
+
+/* below hero portion css start */
+    .mycontainer {
+        height: auto;
+        max-width: 100%;
+    
+    }
+    .mycontainer .upper{
+        height: auto;
+        max-width: 100%;
+    }
+    .mycontainer .lower{
+        height: auto;
+        max-width: 100%;
+    
+    }
+    
+    .mycontainer .upper p{
+        max-width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        display: block;
+    }
+    
+    
+    .mycontainer .upper .myfourboxcontainer {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    .mycontainer .upper .myfourboxcontainer .box1{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box1_left{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box1_left img{
+        max-width: 100%;
+        padding-left: 0%;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box1_left h4{
+        font-size: 22px;
+    
+    }
+    .mycontainer .upper .myfourboxcontainer  .box1_left p{
+        font-size: 1.0rem;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box1_right{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    .mycontainer .upper .myfourboxcontainer  .box1_right img{
+        max-width: 100%;
+
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box1_right h4{
+        font-size: 22px;
+    }
+    .mycontainer .upper .myfourboxcontainer  .box1_right p{
+        font-size: 1.0rem;
+
+    }
+    
+    
+    .mycontainer .upper .myfourboxcontainer .box2_left {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box2_left img{
+        max-width: 100%;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box2_left h4{    
+        font-size: 22px;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box2_left p{
+        font-size: 1.0rem;
+
+    }
+    
+    
+    .mycontainer .upper .myfourboxcontainer .box2_right {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+
+    .mycontainer .upper .myfourboxcontainer  .box2_right img{
+        max-width: 100%;
+    }
+    
+    .mycontainer .upper .myfourboxcontainer  .box2_right h4{
+        font-size: 22px;
+        
+    }
+    .mycontainer .upper .myfourboxcontainer  .box2_right p{
+        font-size: 1.1rem;
+
+    }
+    
+    .mycontainer .upper .myfourboxcontainer .box2 {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+    
+  /* below here portion css start */
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* second last portion css start here */
+
+    
+    .myImageInSecondLastPart{
+        height: auto;
+        max-width: 100%;
+        border-radius: 4px;
+
+    }
+    
+    /* second last part */
+    .secondlastdiv{
+        height: auto;
+        max-width: 100%;
+    }
+    
+    
+    .secondlastdiv  .lowerdiv1{
+        height: auto;
+        max-width: 100%;
+    
+    }
+    
+    
+    .secondlastdiv  .lowerdiv1 h3{
+        font-size: 1.1rem;
+    
+    }
+    .secondlastdiv  .lowerdiv1 p{
+        font-size: 22px; 
+    
+    }
+    
+    
+    
+    
+    
+    
+    .secondlastdiv  .lowerdiv2{
+        height: auto;
+        max-width: 100%;
+    
+    }
+    
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_left{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        
+    }
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_left img{
+        max-width: 100%;
+        padding: 0%;
+    }
+    
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_left p{
+
+    }
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_left h6{
+        font-size: 32px;
+        
+    }
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right{
+        width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        
+        
+    }
+    
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second{
+        width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        
+        
+    }
+
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second img{
+        max-width: 100%;
+
+    }
+    
+
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second p{
+
+    }
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second h6{
+        font-size: 32px;
+    
+        
+    }
+    
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        
+        
+    }
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third img{
+        max-width: 100%;
+
+    }
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third p{
+        margin-left: 5%;
+    }
+    
+    
+    .secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third h6{
+        margin-left: 5%;
+        font-size: 32px;
+        
+    }   
+    
+    
+    
+    
+    .secondlastdiv  .lowerdiv3{
+        height: auto;
+        max-width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    .secondlastdiv  .lowerdiv3 .viewall{
+        height: auto;
+        max-width: fit-content;
+        background-color:#4E42D9;;
+        padding: 10px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-left: 40%;
+
+    
+    }
+    
+        /* second last portion css end here */
+
+    
+    
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* footer css */
+    .footerdiv{
+        height: auto;
+        max-width: 100%;
+        color: white;    
+    }
+    
+    
+    .footerdivupper{
+        height: auto;
+        max-width: 100%;
+        background: #292838;
+    
+    }
+    
+    .footerdivupperleft{
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+    .footerdivupperleft h2{
+        font-size: 34px;
+    }
+    .footerdivupperleft p{
+
+    }
+
+
+    
+    .footerdivupperright{
+        width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+    
+
+    .footerdivupperright_left{
+        width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+    }
+
+    .footerdivupperright_left li{
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    .footerdivupperright_right{
+        max-width: 100%;
+        height: auto;
+        float: right;
+    }
+    
+    .footerdivupperright_right_left{
+        max-width: 100%;
+        float: left;
+    
+    }
+    .footerdivupperright_right_left li{
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .footerdivupperright_right_right{
+        max-width: 100%;
+        float: right;
+    
+    }
+
+    .footerdivupperright_right_right li{
+       padding: 5px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footerdivlower{
+        height: 60px;
+        max-width: 100%;
+        color: white;
+        text-align: center;
+        background-color: #23222F;
+    
+    }
+    
+    .footerdivlower p{
+        padding-top: 20px;
+    }
+    
+    
+    
+    /* end footer */
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,585 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 5px;
+    height: 80px;
+    border: 0.7px solid #FFFFFF4A;
+}
+
+.navbar .leftdiv{
+    float: left;
+    width: 20%;
+    margin-top: 26px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+.navbar .rightdiv{
+    float: right;
+    width: 50%;
+}
+
+.navbar .rightdiv ul{
+    margin-left: 200px;
+    margin-right: 0;
+}
+
+.navbar .rightdiv li{
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 26px;
+}
+.btn{
+    background-color: rgb(12, 124, 223);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.active{
+    color: blue;
+}
+
+
+/* nav bar end */
+
+
+.bodycontainer{
+    height: 570px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.bodycontainer .leftbody{
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    display: block;
+
+}
+
+.bodycontainer .rightbody {
+    float: right;
+    width:55%;
+
+
+}
+
+.bodycontainer .rightbody img{
+    height: 584px;
+    width: 578px;
+    left: 622px;
+    top: 0px;
+    margin-left: 80px;
+    border-radius: 0px;
+}
+.bodycontainer .leftbody .title h2{
+    height: 141px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: nullpx;
+    font-size: 2rem;
+
+}
+.bodycontainer .leftbody .title p{
+    height: 141px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: nullpx;
+
+}
+.bodycontainer .leftbody .btndiv{
+    height: 140px;
+    padding: 5px;
+    border-radius: nullpx;
+
+}
+.bodycontainer .leftbody .leftbtn{
+    width: 500px;
+    height: 150px;
+}
+
+.bodycontainer .leftbody .leftbtn{
+    height: 50px;
+    width: 189px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+    padding: 16px, 30px, 16px, 30px;
+    background: #4E42D9;
+    float: left;
+
+
+    
+}
+.bodycontainer .leftbody .leftbtn h4{
+    height: 18px;
+    width: 129px;
+    margin-left: 30px;
+    padding-top: 5px;
+    margin: 10px 0px 0px 30px;
+
+}
+
+
+
+.bodycontainer .leftbody .rightbtn{
+    height: 50px;
+    width: 133px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 16px, 30px, 16px, 30px;
+    background: #4E42D92E;
+    float: right;
+    
+
+    
+}
+.bodycontainer .leftbody .rightbtn h4{
+    height: 18px;
+    width: 73px;
+    margin-left: 30px;
+    padding-top: 15px;
+    border-radius: nullpx;
+    
+}
+
+
+/* below hero part */
+
+
+.mycontainer {
+    height: 500px;
+    margin-top: 180px;
+
+}
+.mycontainer .upper{
+    height: 300px;
+}
+.mycontainer .lower{
+    height: 300px;
+
+}
+
+.mycontainer .upper p{
+    width: 300px;
+    font-size: 44px;
+    padding: 10px;
+    margin-left: 45%;
+
+}
+
+
+.mycontainer .upper .myfourboxcontainer {
+    width: 100%;
+}
+
+
+.mycontainer .upper .myfourboxcontainer .box1{
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box1_left{
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box1_left img{
+    margin-left: 45%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box1_left h4{
+    font-size: 22px;
+    margin-left: 35%;
+
+}
+.mycontainer .upper .myfourboxcontainer  .box1_left p{
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box1_right{
+    width: 40%;
+    height: 200px;
+    float: right;
+}
+.mycontainer .upper .myfourboxcontainer  .box1_right img{
+    margin-left: 45%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box1_right h4{
+    font-size: 22px;
+    margin-left: 50%;
+}
+.mycontainer .upper .myfourboxcontainer  .box1_right p{
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+
+.mycontainer .upper .myfourboxcontainer .box2_left {
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box2_left img{
+    margin-left: 45%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box2_left h4{
+    margin-left: 36%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box2_left p{
+    font-size: 18px;
+    margin-left: 30%;
+}
+
+
+.mycontainer .upper .myfourboxcontainer .box2_right {
+    width: 50%;
+    float: right;
+    height: 200px;
+}
+.mycontainer .upper .myfourboxcontainer  .box2_right img{
+    margin-left: 45%;
+}
+
+.mycontainer .upper .myfourboxcontainer  .box2_right h4{
+ margin-left: 43%;
+}
+.mycontainer .upper .myfourboxcontainer  .box2_right p{
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+.mycontainer .upper .myfourboxcontainer .box2 {
+    width: 50%;
+    height: 200px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end below hero part */
+
+
+
+
+.myImageInSecondLastPart{
+    height: 281px;
+    width: 386.6666564941406px;
+    left: 0px;
+    border-radius: 4px;
+
+}
+
+/* second last part */
+.secondlastdiv{
+    height: 900px;
+    width: 100%;
+}
+
+
+.secondlastdiv  .lowerdiv1{
+    height: 100px;
+    width: 100%;
+
+}
+
+
+.secondlastdiv  .lowerdiv1 h3{
+    margin-left: 50%;
+    font-size: 32px;
+
+}
+.secondlastdiv  .lowerdiv1 p{
+    margin-left: 25%;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+.secondlastdiv  .lowerdiv2{
+    height: 700px;
+    width: 100%;
+
+}
+
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_left{
+    width: 30%;
+    float: left;
+    
+}
+.secondlastdiv  .lowerdiv2  .lowerdiv2_left img{
+    margin-left: 30%;
+    
+}
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_left p{
+    margin-left: 30%;
+    
+}
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_left h6{
+    margin-left: 30%;
+    font-size: 32px;
+    
+}
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right{
+    width: 60%;
+    float: right;
+    
+}
+
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second{
+    width: 45%;
+    float: left;
+    
+}
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second p{
+    margin-right: 20%;
+}
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_second h6{
+    font-size: 28px;
+    padding: 2px;
+
+    
+}
+
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third{
+    width:45%;
+    float: right;
+    
+}
+
+
+.secondlastdiv  .lowerdiv2  .lowerdiv2_right .lowerdiv2_third h6{
+    font-size: 28px;
+    padding: 2px;
+    
+}
+
+
+
+
+
+
+
+
+.secondlastdiv  .lowerdiv3{
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondlastdiv  .lowerdiv3 .viewall{
+    height: 40px;
+    width: 100px;
+    background-color:#4E42D9;;
+    margin-left: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: #FFFFFF;
+    ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+.footerdiv{
+    height: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 217, 255);
+
+}
+
+
+.footerdivupper{
+    height: 340px;
+    width: 100%;
+    background: #292838;
+
+}
+
+.footerdivupperleft{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.footerdivupperleft h2{
+    margin-left: 200px;
+    padding-top: 100px;
+    font-size: 34px;
+}
+.footerdivupperleft p{
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+.footerdivupperright{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.footerdivlower{
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #23222F;
+
+}
+
+.footerdivlower p{
+    padding-top: 20px;
+}
+
+.footerdivupperright_left{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.footerdivupperright_left li{
+    padding: 5px;
+}
+
+.footerdivupperright_right{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+.footerdivupperright_right_left{
+    width: 20%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+.footerdivupperright_right_left li{
+    padding: 5px;
+
+}
+.footerdivupperright_right_right{
+    width: 60%;
+    float: right;
+    margin-top: 60px;
+
+}
+
+.footerdivupperright_right_right li{
+   padding: 5px;
+
+}
+
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

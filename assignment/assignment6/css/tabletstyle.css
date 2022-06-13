@@ -1,0 +1,761 @@
+@media only screen and (max-width: 768px) {
+    
+/* header section */
+
+.header__container{
+    margin-top: 20px !important;
+    width: 80%;
+    margin: 0% auto;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.header__container img{
+    max-height: 100px;
+    max-width: 180px;
+    margin-top: 20px;
+}
+.col-2__left{
+    max-width: 100%;
+    float: left;
+}
+
+.col-2__right{
+    max-width: 100%;
+    float: right;
+}
+
+
+
+.header__container__elementlink{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header__container__elementlink li{
+ display: inline-block;
+ margin: 0.5rem 10px; 
+ text-align: center;  
+}
+.header__container__elementlink li a{
+    color: gray;
+    font-size: 1.25rem;
+}
+.header__container__elementlink li a:hover{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+}
+
+.header__container__elementlink li a span{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+}
+/* navbae end */
+
+.header__container__section{
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.imageelement{
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 100;
+    position: absolute;
+    left: -28px;
+    top: 80px;
+    display: none;
+}
+
+.wrapper {
+    margin: 10% auto;
+    max-width: 100%;
+}
+
+
+.wrapper__left{
+    float: left;
+    max-width: 100%;
+    text-align: left;
+}
+.wrapper__left h1{
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+.wrapper__left p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.wrapper__left a{
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    width: fit-content;
+
+}
+
+.wrapper__left .button{
+    background-color: #458FF6;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    margin: 30px auto;
+    font-size: 1.5rem;
+
+}
+.wrapper__left .button:hover{
+    background-color: #006aff;
+
+
+}
+.wrapper__right{
+    float: right;
+    width: 100%;
+    text-align: center;
+    display: block;
+
+}
+
+.header__container__section .wrapper__right img {
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+.my__container{
+    display: block;
+    overflow: hidden;
+}
+/* our services css */
+.ourservicescontainer{
+    display: block;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.ourservicescontainer__wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.ourservicescontainer__wrapper h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.ourservicescontainer__wrapper img{
+    margin: 20px auto;
+}
+.ourservicescontainer__wrapper p{
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: 70%;
+    margin: 10px  auto;
+}
+
+.outservices__background__left{
+    width: 1118.54px;
+    height: 967.94px;
+    position:absolute;
+    top: 733px;
+    left: 0px;
+    z-index: -1;
+    display: none;
+}
+
+
+.outservices__background__right{
+    width: 131.58px;
+    height: 115px;
+    position:absolute;
+    top: 1147px;
+    left: 1384px;
+    z-index: -1;
+    display: none;
+}
+
+
+
+.ourservicescontainnermain__wrapper{
+    max-width: 80%;
+    margin: 50px auto;
+    display: block;
+    overflow: hidden;
+}
+
+.ourservicescontainnermain__wrapper__row{
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+
+.ourservicescontainnermain__wrapper__row__col__3{
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.ourservicescontainnermain__wrapper__row__col__3 .mycard{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.ourservicescontainnermain__wrapper__row__col__3 .mycard p{
+    color: gray;
+    font-size: 1.0rem;
+    margin: auto 0;
+}
+
+
+.ourservicescontainnermain__wrapper__row__col__3 .mycard h3{
+    font-size: 1.3rem;
+    margin: 5% 0;
+}
+
+.ourservices__learnmore{
+    max-width: 100%;
+    text-align: center;
+    margin: 150px auto;
+
+}
+
+.ourservices__learnmore__btn{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.ourservices__learnmore__btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* css for leading healthcare providers */
+
+.landing__healthcare__providers__section{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+
+}
+
+.landing__healthcare__providers__section__wrapper{
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    text-align:left;
+
+}
+
+.landing__healthcare__providers__section__wrapper__column__two{
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+
+.landing__healthcare__providers__section__wrapper__column__two img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.landing__healthcare__providers__section__wrapper__column__two h2{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 30px;    
+}
+
+.landing__healthcare__providers__section__wrapper__column__two__horizontalbar__images{
+    text-align: left;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-left: 30px !important;    
+}
+
+.landing__healthcare__providers__section__wrapper__column__two p{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-left: 30px;    
+    max-width: 70%;
+}
+
+
+
+.landing__healthcare__providers__section__wrapper__column__two__read__more__btn{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.landing__healthcare__providers__section__wrapper__column__two__read__more__btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.landing__healthcare__providers__section__background{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 2283px;
+    left: 1614px;
+    z-index: -1;
+    display: none;
+}
+
+
+/* css for testimonials */
+.testimonials__container{
+    max-width: 80%;
+    margin: 20px auto;
+    display: block;
+    overflow: hidden;
+
+}
+
+.testimonials__container__wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.testimonials__container__wrapper__first__row{
+    border-radius: 30px;
+    background-color: #006aff;
+    color: white;
+    padding: 20px;
+}
+
+.testimonials__container__wrapper__upper__section{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+.testimonials__container__wrapper__upper__section h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.testimonials__container__wrapper__lower__section{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.testimonials__container__wrapper__lower__section__column_two{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+
+}
+.testimonials__container__wrapper__lower__section__column_two__image{
+    border-radius: 50%;
+    width: 150px;
+    border: 5px solid white;
+    float: left;
+}
+
+.testimonials__container__wrapper__lower__section__column_two h4{
+    display: block;
+    overflow: hidden;
+    margin-top: 60px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+
+.testimonials__container__wrapper__lower__section__column_two p{
+    display: inline-block;
+    margin-top: 8px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+
+.testimonials__container__wrapper__lower__section__column_two__message{
+    display:inline-block;
+    margin: 5% 5%;
+
+}
+
+
+
+
+.testimonials__container__wrapper__lower__section__arrow__nav{
+    margin: 40px auto;
+}
+
+.testimonials__container__wrapper__lower__section__arrow__nav__middle__circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #5B9BF3;
+    
+}
+.testimonials__container__wrapper__lower__section__arrow__nav__middle__circle:hover{
+    background-color: blue;
+    
+}
+.testimonials__container__wrapper__lower__section__arrow__nav__active{
+    background-color: blue;
+}
+
+.testimonials__container__wrapper__lower__section__arrow__nav__image{
+    margin: auto 20px;
+    opacity: 0.5;
+}
+
+.testimonials__container__wrapper__lower__section__arrow__nav__image:hover{
+    opacity: 1;
+}
+.testimonials__container__wrapper__lower__section__arrow__nav__image__active{
+    opacity: 1;
+}
+
+
+.testimonials__container__section__background__left{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 3487px;
+    left: 295px;
+    z-index: -1;
+    display: none;
+}
+
+.testimonials__container__section__background__right{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 3202px;
+    left: 1464px;
+    z-index: 1;
+    display: none;
+}
+
+
+
+
+
+
+/* CSS for our lates article */
+.our__latest__artical__container{
+    max-width: 80%;
+    margin: 20px auto;
+    display: block;
+    overflow: hidden;
+
+}
+
+.our__latest__artical__container__wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.our__latest__artical__container__wrapper__upper__section{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.our__latest__artical__container__wrapper__upper__section h2{
+    font-size: 2.5rem;
+    text-align: center;
+}   
+
+
+.our__latest__artical__container__wrapper__lower__section{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.our__latest__artical__container__wrapper__lower__section__row{
+    max-width: 100%;
+    margin: 10px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.our__latest__artical__container__wrapper__upper__section__horizontalbar__images{
+    margin: 20px;
+}
+
+
+.our__latest__artical__container__wrapper__lower__section__column_three{
+    width: 100%;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 350px;
+    max-height: 512px;
+    background-color: white;
+
+}
+.our__latest__artical__container__wrapper__lower__section__column_three__card__readmore__image__arrow{
+    width: 1.2rem;
+}
+
+.our__latest__artical__container__wrapper__lower__section__column_three__card__image{
+    max-width: 100%;
+    max-height: 240px;
+}
+
+.our__latest__artical__container__view__all__btn{
+    max-width: 100%;
+    text-align: center;
+}
+.our__latest__artical__container__wrapper__lower__section__column_three__card__readmore{
+    text-align: left;
+    margin: 10px auto;
+}
+.our__latest__artical__container__view__all__btn__link{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 45px;
+    border-radius: 25px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.our__latest__artical__container__view__all__btn__link:hover{
+    background-color: blue;
+    color: white;
+}
+
+.our__latest__artical__container__section__background__left{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 3995px;
+    left: 190px;
+    z-index: -1;
+    display: none;
+}
+
+.our__latest__artical__container__section__background__right{
+    max-width: 778.73px;
+    max-height: 557.4px;
+    position:absolute;
+    top: 3709px;
+    left: 1278px;
+    z-index: -1;
+    display: none;
+}
+
+
+
+
+/* css for footer */
+
+.footer__container{
+    max-width: 100%;
+    margin-top: 100px;
+    display: block;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    background-image: url(../images/bg\ \(1\).png);
+
+}
+.footer__container__wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.footer__container__wrapper__left{
+    width: 80%;
+    margin: 30px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+
+}
+.footer__container__wrapper__right{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+.footer__container__wrapper__right__row{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.footer__container__wrapper__right__row__column__three{
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+
+}
+
+.footer__container__wrapper__left{
+    max-width: 100%;
+    margin: 10px auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+.footer__container__wrapper__left p{
+    font-size: 0.8rem;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.footer__container__wrapper__right__row__column__three__list{
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.footer__container__wrapper__right__row__column__three__list h4{
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.footer__container__wrapper__right__row__column__three__list ul{
+    margin: 0 auto;
+}
+
+
+
+
+.footer__container__wrapper__right__row__column__three__list ul li{
+    margin: 0 auto;
+}
+
+.footer__container__wrapper__right__row__column__three__list ul li a{
+    color: white;
+}
+
+
+.footer__container__wrapper__right__row__column__three__list ul li a:hover{
+    font-weight: bold;    
+}
+
+
+
+.footer__container__section__background__left{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 4640px;;
+    left:-20px;
+    z-index: 10;
+    display: none;
+}
+
+.footer__container__section__background__right{
+    max-width: 131.58px;
+    max-height: 115px;
+    position:absolute;
+    top: 4421px;
+    left: 1546px;
+    z-index:10;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
