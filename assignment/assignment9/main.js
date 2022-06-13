@@ -1,15 +1,15 @@
 // select next slide button
 const nextSlide = document.querySelector(".btn-next");
 const prevSlide = document.querySelector(".btn-prev");
-
 // // Select all slides
 var slides = document.querySelectorAll(".slide");
 // current slide counter
-let totalNumbeOfFrame = slides.length;
+let totalNumbeOfFrame = slides.length-1;
 let curSlide = 0;
+var allDots = [];
+
 
 // loop through slides and set each slides translateX property to index * 100% 
-
 function updateSlide(curSlide) {
     slides.forEach((slide, index) => {
         if(index == curSlide ){
@@ -21,29 +21,64 @@ function updateSlide(curSlide) {
     });
 }
 
-updateSlide(curSlide)
-updateSlideEffect(curSlide)
-
-
 // add event listener and next slide functionality
 nextSlide.addEventListener("click", function () {
     // if current slide is not the last slide
-    if (curSlide < totalNumbeOfFrame) {
+    if (curSlide <= totalNumbeOfFrame) {
         slides.forEach((slide, indx) => {
             slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
             updateSlide(curSlide)
             updateSlideEffect(curSlide);
             prevSlide.style.display = "block";
+            nextSlide.style.display = "block";
+            if ( curSlide == totalNumbeOfFrame){
+                prevSlide.style.display = "block";
+                nextSlide.style.display = "none";
+            }
+
         });
         curSlide++;
-    }else{
+    }else if (curSlide> totalNumbeOfFrame){
+        prevSlide.style.display = "block";
+        nextSlide.style.display = "none";
+    }
+    else{
         nextSlide.style.display = "none";
         prevSlide.style.display = "block";
     }
 });
 
+// add event listener and previous slide functionality
+prevSlide.addEventListener("click", function () {
+    // if current slide is not the first slide
+    if (curSlide >= 0 ) {
+        slides.forEach((slide, indx) => {
+            slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+            updateSlide(curSlide)
+            updateSlideEffect(curSlide);
+            nextSlide.style.display = "block";
+            prevSlide.style.display = "block";
+            if(curSlide == 0){
+                nextSlide.style.display = "block";
+                prevSlide.style.display = "none";
+            }}
+        );
+        curSlide--;
+    }else if(curSlide < 0){
+        curSlide = totalNumbeOfFrame
+        nextSlide.style.display = "none";
+        prevSlide.style.display = "block";
+
+    }else{
+        prevSlide.style.display = "none";
+        nextSlide.style.display = "block";
+    }
+}
+);
+
+
 setInterval(function(){
-    if (curSlide < totalNumbeOfFrame) {
+    if (curSlide <= totalNumbeOfFrame) {
         slides.forEach((slide, indx) => {
             slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
             updateSlide(curSlide)
@@ -51,8 +86,15 @@ setInterval(function(){
             prevSlide.style.display = "block";
         });
         curSlide++;
-    }else if(curSlide == (totalNumbeOfFrame-1)){
+    }else if(curSlide > totalNumbeOfFrame){
         curSlide = 0;
+        slides.forEach((slide, indx) => {
+            slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+            updateSlide(curSlide)
+            updateSlideEffect(curSlide);
+            prevSlide.style.display = "none";
+            nextSlide.style.display = "block";
+        });
 
     }
     else{
@@ -62,37 +104,6 @@ setInterval(function(){
    
 
 },1000*20)
-
-
-// add event listener and previous slide functionality
-
-prevSlide.addEventListener("click", function () {
-    // if current slide is not the first slide
-    if (curSlide > 0) {
-        slides.forEach((slide, indx) => {
-            slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
-            updateSlide(curSlide)
-            updateSlideEffect(curSlide);
-            nextSlide.style.display = "block";
-            }
-        );
-        curSlide--;
-    }else if(curSlide == -1){
-        curSlide = totalNumbeOfFrame - 1
-
-    }
-    
-    else{
-        prevSlide.style.display = "none";
-        nextSlide.style.display = "block";
-    }
-}
-);
-
-
-
-
-
 
 // create dots dynamically and add event listener
 class Dot {
@@ -128,10 +139,9 @@ class Dot {
 
 
 // function to create dots
-var allDots = [];
 function createDots() {
     var dotContainer = document.getElementById("dots");
-    for (let i = 0; i < totalNumbeOfFrame; i++) {
+    for (let i = 0; i < totalNumbeOfFrame +1; i++) {
         const dot = new Dot(i);
         dotContainer.appendChild(dot.element);
         allDots.push(dot.element);
@@ -139,14 +149,12 @@ function createDots() {
 }
 
 
-// call create dots function
-createDots();
 
 // function to create the active effects on dot
 function updateSlideEffect(index){
     // iterate through the dot
     const myDots = document.getElementsByClassName('dot');
-    for(let i = 0; i < myDots.length; i++){
+    for(let i = 0; i <= totalNumbeOfFrame; i++){
         if(i == index){
             // append the active class
             myDots[i].classList.add('dotactive')
@@ -155,6 +163,9 @@ function updateSlideEffect(index){
             myDots[i].classList.remove('dotactive')
         }
     }
-       
-        
 }
+
+
+createDots();
+updateSlide(curSlide)
+updateSlideEffect(curSlide)
