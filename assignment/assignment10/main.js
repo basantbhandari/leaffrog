@@ -203,6 +203,15 @@ function updateHighScore() {
         localStorage.setItem("highScore", highScore);
     }
 }
+function increaseComplexity() {
+    enemyCarSpeed += 2;
+    lineSpeed += 2;
+}
+
+
+setInterval(()=>{
+    increaseComplexity();
+}, 1000*60*1);
 
 
 
