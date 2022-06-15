@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+
+/* craete class for button */
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+}
+.btn-primary{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn-primary:hover{
+    opacity: 1;
+}
+.btn-danger{
+    background-color: #f44336;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn-danger:hover{
+    opacity: 1;
+}
+.btn-success{
+    background-color: #f44336;
+    color: white;
+    padding: 1.8rem;
+    margin: 1.8rem;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.btn-success:hover{
+    opacity: 1;
+}
+.btn-info{
+    background-color: #2196F3;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn-info:hover{
+    opacity: 1;
+}
+.btn-warning{
+    background-color: #ff9800;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn-warning:hover{
+    opacity: 1;
+}
+
+
+/* green, red */
+
+.obstacle__top__green{
+    background-image: url("./sprites/pipe-green.rotated.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+
+}
+.obstacle__bottom__green{
+    background-image: url("./sprites/pipe-green.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+.obstacle__top__red{
+    background-image: url("./sprites/pipe-red.rotated.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+
+}
+.obstacle__bottom__red{
+    background-image: url("./sprites/pipe-red.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+
+
+/* blue red */
+
+.player__blue{
+    background-image: url("./sprites/bluebird-midflap.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+@keyframes animatePlayer__blue {
+    from {background-image: url("./sprites/bluebird-downflap.png");}
+    to {background-image: url("./sprites/bluebird-upflap.png");}
+  }
+
+
+.jump__animation__blue{
+    animation: animatePlayer__blue .2s steps(2) infinite;
+}
+  
+
+
+.player__red{
+    background-image: url("./sprites/redbird-midflap.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes animatePlayer__red {
+    from {background-image: url("./sprites/redbird-downflap.png");}
+    to {background-image: url("./sprites/redbird-upflap.png");}
+  }
+  
+
+.jump__animation__red{
+    animation: animatePlayer__red .2s steps(2) infinite;
+}
+  
+
+
+/* day night */
+#gameArea.gameArea__day{
+    background-image: url("./sprites/background-day.png");
+    background-size: contain;
+    background-repeat: repeat;
+}
+#gameArea.gameArea__night{
+    background-image: url("./sprites/background-night.png");
+    background-size: contain;
+    background-repeat: repeat;
+}
+.ground{
+    background-image: url("./sprites/base.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+#scoreArea{
+    background-image: url("./sprites/scoreboard.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
