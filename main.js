@@ -1,8 +1,6 @@
-console.log(getRandomColor());
 var body = document.getElementsByTagName('body')[0];
 body.style.backgroundColor = getRandomColor();
 
-console.log(body.style.backgroundColor);
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
